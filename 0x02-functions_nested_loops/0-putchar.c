@@ -1,13 +1,25 @@
-#include<main.h>
+#include"main.h"
+
+/** A command to print _putchar followed by a new line
+*
+* declare putchar
+* 
+* Return 0 when done
+*/
+int _puthcar(char c);
 
 int main(void)
-	/** A command to print _putchar followed by a new line
-	 *
-	 * declare putchar
-	 * use ASCII method
-	 * Return 0 when done
-	 */
 {
-putchar(95,80,85,84,67,72,65,82,'\n');
-Return(0)
+{
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
+}
+return (0);
 }
