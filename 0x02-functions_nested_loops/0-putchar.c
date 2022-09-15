@@ -6,7 +6,7 @@
 *
 * Return 0 when done
 */
-int _putcar(char c);
+int _putchar(char c);
 int main(void)
 {
 {
@@ -20,5 +20,5 @@ _putchar('a');
 _putchar('r');
 _putchar('\n');
 }
-return (0);
+Return(0);
 }
