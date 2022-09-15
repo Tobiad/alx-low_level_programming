@@ -1,10 +1,8 @@
 #include"main.h"
 /**
-* A command to print _putchar followed by a new line
+* main - Entry point
 *
-* declare putchar
-*
-* Return 0 when done
+* Return: Always return 0
 */
 int _putchar(char c);
 int main(void)
