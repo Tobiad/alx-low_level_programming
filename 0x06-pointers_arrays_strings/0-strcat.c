@@ -2,7 +2,8 @@
 
 /**
  * _strcat - Funtion  for concatenating  two strings
- *
+ * @dest: destination file
+ * @src: source file
  * Return: dest
  */
 
