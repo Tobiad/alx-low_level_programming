@@ -1,14 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * main - funtions that add
+ * main - a programme that add
  * @argc: arguement count
  * @argv: arguement vector
- * return: 0
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	
+	int i;
+
+	sum = 0;
+
+	if (argc > 1)
+	{
+		for (i = 1; i < argc; i++)
+		{
+			sum += atoi(argv[i]);
+		}
+		printf("%d\n", sum);
+	}
+	return (0);
 }
